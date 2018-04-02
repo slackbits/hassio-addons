@@ -1,6 +1,6 @@
 {
   "name": "Netlify CMS Github Auth Proxy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "slug": "netlify_auth_proxy",
   "description": "Netlify CMS Github OAuth Provider (https://github.com/vencax/netlify-cms-github-oauth-provider)",
   "url": "https://github.com/slackbits/hassio-addons/tree/master/netlify-cms-auth-proxy",
@@ -12,14 +12,10 @@
   },
   "options": {
       "oauth_client_id": null,
-      "oath_client_secret": null,
-      "redirect_url": null,
-      "git_hostname": null
+      "oath_client_secret": null
   },
   "schema": {
       "oauth_client_id": "str",
-      "oath_client_secret": "str",
-      "redirect_url": "str",
-      "git_hostname": "str"
+      "oath_client_secret": "str"
   }
 }
