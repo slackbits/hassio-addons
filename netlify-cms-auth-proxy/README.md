@@ -13,10 +13,4 @@ After registering your Oauth app, you will get a client ID and a secret.  Enter 
 
 After registering your Oauth app, you will get a client ID and a secret.  Enter the secret here.
 
-### redirect_url (string) (optional)
 
-Include this if you need your callback to be different from what is supplied in your Oauth app configuration.
-
-### git_hostname (string) (optional)
-
-This is only necessary for use with Github Enterprise
