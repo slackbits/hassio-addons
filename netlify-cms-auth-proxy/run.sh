@@ -10,4 +10,5 @@ REDIRECT_URL=$(jq --raw-output ".redirect_url" $CONFIG_PATH)
 GIT_HOSTNAME=$(jq --raw-output ".git_hostname" $CONFIG_PATH)
 
 ## Run Program
-node /netlify-cms-github-oauth-provider/index.js
+#node /netlify-cms-github-oauth-provider/index.js
+echo Hello world!
