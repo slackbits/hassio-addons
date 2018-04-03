@@ -10,6 +10,10 @@ export OAUTH_DEBUG=$(jq --raw-output ".oauth_debug" $CONFIG_PATH)
 #REDIRECT_URL=$(jq --raw-output ".redirect_url" $CONFIG_PATH)
 #GIT_HOSTNAME=$(jq --raw-output ".git_hostname" $CONFIG_PATH)
 
+echo $OAUTH_CLIENT_ID
+echo $OAUTH_CLIENT_SECRET
+echo $OAUTH_DEBUG
+
 ## Run Program
 node /netlify-cms-github-oauth-provider/index.js
 #echo Hello world!
