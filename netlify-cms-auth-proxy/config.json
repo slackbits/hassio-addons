@@ -12,12 +12,12 @@
   },
   "options": {
       "oauth_client_id": null,
-      "oath_client_secret": null,
-      "oath_debug": false
+      "oauth_client_secret": null,
+      "oauth_debug": false
   },
   "schema": {
       "oauth_client_id": "str",
-      "oath_client_secret": "str",
-      "oath_debug": "bool"
+      "oauth_client_secret": "str",
+      "oauth_debug": "bool"
   }
 }
