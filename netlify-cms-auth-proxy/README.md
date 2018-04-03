@@ -13,4 +13,6 @@ After registering your Oauth app, you will get a client ID and a secret.  Enter 
 
 After registering your Oauth app, you will get a client ID and a secret.  Enter the secret here.
 
+### oauth_debug (bool)
 
+Output debug information.  Do not use this in production and be careful with your secret.
