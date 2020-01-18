@@ -1,10 +1,11 @@
 {
   "name": "Roon Web Controller",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "slug": "roon_web_controller",
   "description": "Roon Web Controller (https://github.com/pluggemi/roon-web-controller)",
   "url": "https://github.com/slackbits/hassio-addons/tree/master/roon-web-controller",
   "image": "slackbits/{arch}-roon-web-controller",
+  "arch": ["armv7", "armhf", "amd64", "aarch64", "i386"],
   "startup": "before",
   "boot": "auto",
   "ports": {
