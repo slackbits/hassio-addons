@@ -4,7 +4,6 @@
   "slug": "netlify_auth_proxy",
   "description": "Netlify CMS Github OAuth Provider (https://github.com/vencax/netlify-cms-github-oauth-provider)",
   "url": "https://github.com/slackbits/hassio-addons/tree/master/netlify-cms-auth-proxy",
-  "image": "slackbits/{arch}-netlify-cms-auth-proxy",
   "arch": ["armv7", "armhf", "amd64", "aarch64", "i386"],
   "startup": "before",
   "boot": "auto",
