@@ -1,0 +1,15 @@
+{
+  "name": "Roon Extension Manager",
+  "version": "0.0.1",
+  "slug": "roon_extension_manager",
+  "description": "Roon Extension Manager (https://github.com/TheAppgineer/roon-extension-manager)",
+  "url": "https://github.com/slackbits/hassio-addons/tree/master/roon-extension-manager",
+  "arch": ["armv7", "armhf", "amd64", "aarch64", "i386"],
+  "startup": "before",
+  "boot": "auto",
+  "ports": {
+    "2507/tcp": 2507
+  },
+  "options": { },
+  "schema": { }
+}
